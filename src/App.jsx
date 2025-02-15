@@ -28,7 +28,7 @@ function App() {
             aria-label="Add ingredient"
             name="ingredient"
           />
-          <button>Add Ingredient</button>
+          <button>Add Ingredients</button>
         </form>
         <ul>
           {ingredientListItems}
