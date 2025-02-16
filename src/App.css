@@ -50,3 +50,63 @@
 .add-ingredient-form > button::before {
   content: "+ ";
 }
+
+h2 {
+  font-size: 1.875rem;
+  line-height: 2.375rem;
+  font-weight: 600;
+}
+
+.ingredients-list {
+  padding-inline-start: 20px;
+}
+
+.ingredients-list > li {
+  color: #475467;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+}
+
+.get-recipe-container > div > h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-block: 10px;
+}
+
+.get-recipe-container > div > p {
+  color: #6B7280;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  margin-block: 10px;
+}
+
+.get-recipe-container > div {
+  display: block;
+}
+
+.get-recipe-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 42px;
+  background-color: #F0EFEB;
+  border-radius: 6px;
+}
+
+.get-recipe-container > button {
+  background-color: #D17557;
+  color: #FAFAF8;
+  font-family: Inter, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 9px 17px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px #0000000D;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+
